@@ -1,7 +1,5 @@
 package com.example.javaproject2.week1;
 
-import com.example.javaproject2.PrintHello;
-
 import java.util.Scanner;
 
 public class DefineAndInitialize {

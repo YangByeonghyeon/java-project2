@@ -1,6 +1,6 @@
 package com.example.javaproject2.week2;
 
-public class SecretMap {
+public class SecretMap_h {
     public static String[] solution(int n, int[] arr1, int[] arr2) {
         String[] result = new String[n];
         for (int i = 0; i < n; i++) {

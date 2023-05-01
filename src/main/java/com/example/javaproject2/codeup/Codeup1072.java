@@ -8,8 +8,8 @@ public class Codeup1072 {
         int len = sc.nextInt();
         int[] value = new int[len];
 
-        for(int i = 0; i <value.length; i++) {
-            value[i] =sc.nextInt();
+        for(int i = 0; i < value.length; i++) {
+            value[i] = sc.nextInt();
             System.out.println(value[i]);
         }
     }

@@ -19,6 +19,5 @@ public class Codeup1086 {
         bw.write(String.format("%.2f MB", mb));
         bw.flush();
         bw.close();
-
     }
 }

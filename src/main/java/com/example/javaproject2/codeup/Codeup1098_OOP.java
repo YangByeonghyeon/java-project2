@@ -1,10 +1,21 @@
 package com.example.javaproject2.codeup;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Codeup1098_OOP {
-    private int[][] arr = new int[5][5];
+    //private int[][] arr = new int[5][5];
+    private int[][] arr;
+    private boolean printSeparator;
+    public Codeup1098_OOP() {
+        this.arr = new int[5][5];
+    }
+    public Codeup1098_OOP(boolean printSeparator) {
+        this.arr = new int[5][5];
+        this.printSeparator = printSeparator;
+    }
+    public Codeup1098_OOP(int rowCnt) {
+        this.arr = new int[rowCnt][5];
+    }
     public Codeup1098_OOP(int rowCnt, int colCnt) {
         this.arr = new int[rowCnt][colCnt];
     }
@@ -12,11 +23,9 @@ public class Codeup1098_OOP {
         for (int i = 0; i < l; i++) {
             if (direction == 0) { // 가로
                 arr[x - 1][y + i - 1] = 1;
-
             }
             else { // 세로
                 arr[x + i - 1][y - 1] = 1;
-
             }
         }
     }

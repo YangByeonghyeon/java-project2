@@ -10,6 +10,11 @@ public class User2 {
         this.phoneNumber = phoneNumber;
         this.age = age;
     }
+
+    public User2() {
+
+    }
+
     public String getPassWord() {
         return passWord;
     }

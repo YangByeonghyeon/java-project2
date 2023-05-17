@@ -15,6 +15,7 @@ public class Stack3 {
         /*int temp = this.arr[pointer - 1];
         pointer--;
         return temp;*/
+        if(isEmpty()) throw new RuntimeException("스택이 비었습니다.");
         return this.arr[--pointer]; //리팩토링
     }
     public void push(int value) {
@@ -30,5 +31,6 @@ public class Stack3 {
         System.out.println(st3.isEmpty());
         System.out.println(st3.pop());
         System.out.println(st3.isEmpty());
+        System.out.println(st3.pop());
     }
 }
